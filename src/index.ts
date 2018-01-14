@@ -1,5 +1,5 @@
 /**
- * Applciation entrypoint
+ * Application entrypoint
  */
 
 // tslint:disable-next-line:no-console
