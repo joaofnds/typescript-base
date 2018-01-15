@@ -2,9 +2,10 @@
   "name": "typescript-base",
   "version": "1.0.0",
   "main": "out/index.js",
+  "description": "A typescript base project",
   "license": "MIT",
   "scripts": {
-    "start": "node out/main",
+    "start": "node out/index",
     "build": "webpack",
     "test":
       "mocha -r ts-node/register -r tsconfig-paths/register src/**/test/*.ts",
@@ -26,5 +27,9 @@
     "tslint-microsoft-contrib": "^5.0.2",
     "typescript": "^2.6.2",
     "webpack": "^3.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaofnds/typescript-base"
   }
 }
