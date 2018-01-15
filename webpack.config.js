@@ -7,6 +7,7 @@ module.exports = {
     filename: '[name].js',
     path: path.resolve(__dirname, 'out')
   },
+  target: 'node',
   resolve: {
     extensions: ['.ts', '.js', '.json'],
     plugins: [new TsConfigPathsPlugin()]
