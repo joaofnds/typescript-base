@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node out/index",
-    "build": "webpack",
+    "build": "webpack-cli",
     "test": "mocha -r ts-node/register -r tsconfig-paths/register src/**/test/*.ts",
     "precommit": "pretty-quick --staged"
   },
@@ -25,7 +25,8 @@
     "tslint": "^5.11.0",
     "tslint-microsoft-contrib": "^5.2.1",
     "typescript": "^3.0.3",
-    "webpack": "^4.17.2"
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
   },
   "repository": {
     "type": "git",
